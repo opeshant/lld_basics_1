@@ -1,0 +1,28 @@
+
+vertical scaling and horizontal scaling 
+
+vertical scaling -> scale up
+increasing capacity of self server 
+-> maybe increase more cpu , more ram , or more memory
+
+horizontal sacling / scale out 
+adding more similar servers 
+
+
+vertical scaling ->
+->traffic is low 
+->simplicity is its adavatge 
+
+horizontal scaling ->
+->big application/big traffic
+->huge traffic 
+
+
+limitation of vertical scaling
+->impossible to add unlimited cpu or ram to a single server
+->no backup -> if one server fails -> all is gone 
+
+
+for large scale applciation thats why we use ->>horizonatal scaling 
+due to limitation of vertical scaling 
+
