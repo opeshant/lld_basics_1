@@ -1,0 +1,41 @@
+
+
+which database to use ??
+
+1.relational database 
+2.non-relational database
+
+
+relational ->
+->RDBMS(reational database management system)
+->or SQL database
+-> eg. -> MYSQL , Oracel , PostgreSQl
+-> repsent and store data in tabels and rows 
+->can performe join operation using SQL on different tabels
+
+
+noSQL database / non-relational database
+->cassandra , amazon , dyanomdb 
+->grouped into 4 catgeories 
+-> graph stores 
+->key valaue stores 
+->column stores 
+->document stores 
+->JOIN. operation not supported 
+
+
+which to use ??
+
+for most devs -> relational database
+
+many case where relational databse is not suitabel
+
+
+when to think of nonrelational database
+-> require super low latency 
+-> unstructred data 
+-> only need to serialize and desaerilize no schema (JSON , XML , YAML)
+-> u need to store massive amount of data
+-> no restriction on data type 
+->large qauntitites of massive and unstructred data is stored 
+
