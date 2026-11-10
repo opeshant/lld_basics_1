@@ -1,0 +1,24 @@
+
+until this user are directly connected to server 
+
+
+when server is offline 
+also many user can access at the same time 
+
+
+->therefore load balancer is used 
+->evenly distribute web traffic 
+->users connect to load balancer via public ip 
+-> load balancer communicate with web server via private ip
+-> private ip is not accessed from outside 
+
+
+-> improved availibility 
+
+->if server 1 goes offline then server 2 will get all the traffic -> service wont go offline 
+
+-> if webiste grows rapidly 2 sercers not enough to handle the traffic 
+-> add one more server then automaticallly laod balancer evely distrubte the users 
+
+
+
