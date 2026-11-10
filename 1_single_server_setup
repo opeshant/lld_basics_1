@@ -1,0 +1,28 @@
+
+
+domain name -> www.leetcode.com -> we write this 
+
+ip adsress -> 15.2132.32.122 -> server understands 
+
+DNS -->> domain name -> ip address 
+(Domain name system) (genrally third party service provider)
+
+traffic -> one chair and many applicants (how many number of request requesting a server)
+
+
+web application -> server side (buisness logic) (java , python ,etc) + client side (HTML , JS)
+
+mobile applicaiton -> http protocol speaks with server and api resposne in JSON 
+
+{
+    key : value , 
+    key2 : value2 ,
+}
+
+// example JSON
+
+grow user -> need more server 
+
+
+
+
