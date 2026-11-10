@@ -1,0 +1,39 @@
+
+how to improve load / resposne time 
+
+CACHE -> temp storage 
+stores -> result of expensive response 
+or stores -> frequently accessed data 
+
+
+we can server request(some) very qucikly
+
+
+server <- cache <- database 
+(called red-through-cache)
+
+interacting with cache 
+simple 
+cache server provide apis
+
+
+example -> cache.set('my-key) , 'jello' , 36000sec;
+           cache.get('mey-key)
+
+
+when to use cache 
+
+data is frequently + modified unfrequently 
+
+expiration policy -> not too low -> data relaodinf form db problem 
+                  -> not too high -> stale data
+
+cosistency -> between db and cache 
+
+multiple cache server across sifferent data center to avoid spof (single point of failure )
+
+eviction policy ->LRU , LFU , FIFO 
+(when cache get fulls)
+
+
+
