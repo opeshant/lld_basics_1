@@ -1,0 +1,6 @@
+
+single server was not enough 
+
+server 1(for traffic) and server2 (database)
+-> independtly scale 
+
