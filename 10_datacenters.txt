@@ -1,0 +1,24 @@
+
+website -> popular 
+->lost of international user
+-> around of world 
+
+to improve avalibilty and better expreicnec across wider geograpghical 
+areas we should support "multiple data centers "
+
+
+geoDNS
+example ->US east(db1) and US west (db2)
+
+split traffic -> x percent US east and 100 - x percent US west 
+
+geoDNS is DNS returns ip adress based on location of users 
+
+if outage happens in db2 then to route all the users to db1 is done or helped by geoDNS
+
+
+challenges to achieve multi data center setup
+
+traffic redicrection -> geoDNS
+data syncrhonization -> replicate data acorss multiple data centers 
+test and deployment -> test your website /app at different location 
