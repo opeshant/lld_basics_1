@@ -1,0 +1,30 @@
+what if database fails ??
+
+db replication 
+->master (original db)
+->salves (copy)(replica)
+
+master ->
+-> only write operations 
+-> insert , delete , update 
+-> data modifying operations commands 
+ 
+
+slave ->
+->read operations 
+->gets copies of data from master
+
+
+most application => (reads / writes) (high ratio)
+therefore slaves > masters
+
+advanatges of db replication 
+
+-> better performe 
+-> reliability (failure wala scene hoga)
+-> high availibility
+
+// if any problem in master db -> we can promote one of the slave db to master db eventually 
+
+
+// in real life db -> promoting a master db is difficult 
