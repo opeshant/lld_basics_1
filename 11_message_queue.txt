@@ -1,0 +1,30 @@
+message queue
+
+modern architecture 
+
+samller independent blocks
+
+they can be unqiuely maintained , control , and work on one by one 
+small -> easy develop -> easy deploy -> easy maintained
+
+but how communicate 
+
+message queue -> provide communication and coordination for them 
+
+supports asynchronous communication 
+
+producers (publishers ) -> publish -> message ---->>> consumer
+
+                                              <<-----(subscribers)
+
+producer can produce a message to queeue even when consumer is unavalible
+consumer can read message from queue even when producer is unavalible
+
+both are independent of each other 
+therefore asynchronus communication 
+
+// no synchronism between them 
+
+
+example -> photo custmization service 
+
