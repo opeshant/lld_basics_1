@@ -1,0 +1,24 @@
+
+CDN (Content Delivery Network)
+
+website -> static content (images , vedios css , js. etc)
+website -> dyanmic content (changes according to user input)
+
+
+exmaple -> webiste for selling ebooks (static content)
+
+how cdn works 
+
+user visit a webiste 
+cdn server closets to user -> static content
+jitna durr cdn server -> utna hi slow loading 
+
+
+things to condier cdn 
+
+->cost -> get rid of infrequlty used contents 
+expiry time -> not too low , not too high 
+CDN Fallback /backup -> backup when cdn fails
+invaliditing files -> api (cdn vendors)
+                   -> versionging (exampel -> veriosn 2 image chahiye verions 1 wala invalid)
+

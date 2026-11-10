@@ -32,6 +32,8 @@ cosistency -> between db and cache
 
 multiple cache server across sifferent data center to avoid spof (single point of failure )
 
+
+(when cache data is full we need to remove so eviction is done)
 eviction policy ->LRU , LFU , FIFO 
 (when cache get fulls)
 
