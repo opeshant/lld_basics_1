@@ -1,0 +1,20 @@
+statelss and statefull web architecture 
+
+session data / state -> data that represents user session on web 
+-> identity of user 
+-> authentic the user 
+
+user A -> web Server A (state info of a )
+
+user B -> web Server B (state info of b)
+
+stateless ->
+->does not remember client data 
+-> does not store state info
+-> simple robust
+
+stateful ->
+->remember client data 
+->stores state information 
+->overhead , not simple
+
