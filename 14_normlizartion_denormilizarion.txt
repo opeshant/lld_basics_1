@@ -1,0 +1,32 @@
+
+
+normilization -> breaking down large table into small related tabel and estabnlishing realtionshio
+between them 
+
+minimize redundancy . simplicity 
+
+do not over normilize 
+
+redundant means same same 
+
+
+denormlization -> delibrately introducing redundancy in a database tabekl 
+
+opposite to normilization 
+
+chote tabel -> jodh ke -> big tabel bana delibrately
+
+
+pros of denormlization ->
+->imporved queires performace (JOIN nhi karna padega ke hi table mai sab kuch hai)
+-> simpilified queires 
+-> read intensive scenarion mai best (simpel one tabel -> fast and easy to read )
+
+cons -> redundancy 
+     -> incosisten data (hrr section mai update karna hoga means each column )
+     ->update and write operation -> slow because we need to update at every location
+
+tricky question -> depends on question 
+
+
+
