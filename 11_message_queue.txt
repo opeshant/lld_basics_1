@@ -28,3 +28,5 @@ therefore asynchronus communication
 
 example -> photo custmization service 
 
+queue is large -> more consumers
+queue is small -> remove consumers 

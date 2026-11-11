@@ -1,0 +1,20 @@
+
+small websites -> few servers -> not a neccesssity 
+
+busy and popularity -> essential 
+
+logging -> monitor error -> per server level -> centerlized logging -> new ride 
+
+metrics -> gain business insights -> aware of health of our service -> 
+-> host level metrics -> cpu , metrics examples -> grafana 
+-> aggragrated metrics -> perfornce of db , cache 
+-> key business metircs -> revenue 
+
+
+automation -> system is comples -> automation tools -> imporve proeductivty 
+
+continous integration -> code check in vertical through autonmation 
+
+automation bilds test deployment etc -> junkins jobs 
+
+messgae queue is a type of automation tool 
