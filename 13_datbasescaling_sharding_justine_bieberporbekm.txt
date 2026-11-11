@@ -1,0 +1,23 @@
+
+
+databse scaling -> vertical scaling or horizontal scaling 
+
+vertical scaling -> more power to existing machine 
+                 -> 10 milliion unqie users ionly one master db fir stackoverflow
+                 ->single point of failure 
+                 -> costly 
+
+horizontal scaling -> sharding (adding more servers)
+                   -> sharding key is chosen very carefully (very important)
+                   -> aisa choose karo ki data evenyl distrubte ho jaye 
+                   -> hash functoin helps to assing sharding
+drawback -> resharding -> no longer hold data 
+-> change sharding hash -> re install data -> overhead 
+
+
+celebrity probelem 
+
+excessive access to a praticular shard cause shard overload 
+
+sharding very difficult to perfome JOIN operation 
+fix -> denormlize the database so that queries can be done in a single tabels
